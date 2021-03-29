@@ -13,6 +13,12 @@ public class App {
         myRamyeon.addIngredient("green onion");
         myRamyeon.addIngredient("kimchi");
         myRamyeon.cook();
+
+        System.out.println("\n<<This is how I cook Ramyeon ver.2>>");
+        CustomRamyeon myRamyeon2 = new CustomRamyeon();
+        myRamyeon2.addIngredient("egg");
+        myRamyeon2.addIngredient("ham");
+        myRamyeon2.cook();
     }
 }
 
@@ -32,5 +38,13 @@ Boiling...
 Put noodle and 90% of soup powder
 Put egg, green onion and kimchi
 Boiling for 1.5 minutes...
+Finish! Enjoy your Ramyeon:)
+
+<<This is how I cook Ramyeon ver.2>>
+Put Water 500ml
+Boiling...
+Put noodle and soup powder
+Put egg and ham
+Boiling for 2.0 minutes...
 Finish! Enjoy your Ramyeon:)
 */
