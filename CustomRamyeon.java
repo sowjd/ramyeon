@@ -8,6 +8,7 @@ public class CustomRamyeon implements Ramyeon {
 
     public void cook() {
         fillWater();
+        System.out.println("Boiling...");
         putNoodleAndSoupPowder();
         putAdditionalIngredients();
         boilWater();
