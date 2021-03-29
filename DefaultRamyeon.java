@@ -1,23 +1,9 @@
-import java.io.FileReader;
-import java.util.ArrayList;
-
-public class DefaultRamyeon extends Ramyeon {
-
-    public DefaultRamyeon() {
-        setWater(500);
-        setSoupPowder(100);
-        setTimeToBoil(2);
-    }
-
-    public void putSoupPowder() {
-        System.out.println("Put whole soup powder.");
-    }
+public class DefaultRamyeon implements Ramyeon {
 
     public void cook() {
-        putWaterAndBoil();
-        put("noodle");
-        putSoupPowder();
-        boilWater();
-        finish();
+        System.out.println("Put Water " + WATER + "ml");
+        System.out.println("Put noodle and soup powder");
+        System.out.println("Boiling for " + BOIL_TIME + " minutes...");
+        System.out.println("Finish! Enjoy your Ramyeon:)");
     }
 }
